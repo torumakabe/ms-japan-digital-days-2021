@@ -1,0 +1,20 @@
+adminuser@vm-nw-latency-eval-5:~$ ethr -c 10.0.0.9 -t l -p tcp
+
+Ethr: Comprehensive Network Performance Measurement Tool (Version: v1.0.0)
+Maintainer: Pankaj Garg (ipankajg @ LinkedIn | GitHub | Gmail | Twitter)
+
+Using destination: 10.0.0.9, ip: 10.0.0.9, port: 8888
+Running latency test: 1000, 1
+-----------------------------------------------------------------------------------------
+      Avg       Min       50%       90%       95%       99%     99.9%    99.99%       Max
+  1.033ms   1.014ms   1.026ms   1.045ms   1.060ms   1.108ms   1.420ms   1.420ms   2.029ms
+  1.039ms   1.013ms   1.025ms   1.050ms   1.073ms   1.202ms   2.286ms   2.286ms   3.876ms
+  1.039ms   1.010ms   1.024ms   1.039ms   1.065ms   1.355ms   2.673ms   2.673ms   4.356ms
+  1.059ms   1.010ms   1.027ms   1.063ms   1.088ms   1.609ms   4.197ms   4.197ms   6.514ms
+  1.076ms   1.017ms   1.032ms   1.088ms   1.142ms   2.176ms   4.554ms   4.554ms   4.759ms
+  1.083ms   1.014ms   1.032ms   1.091ms   1.146ms   2.648ms   5.143ms   5.143ms   5.530ms
+  1.062ms   1.010ms   1.027ms   1.081ms   1.133ms   1.827ms   3.572ms   3.572ms   5.255ms
+  1.052ms   1.013ms   1.026ms   1.055ms   1.085ms   1.258ms   4.018ms   4.018ms   6.501ms
+  1.096ms   1.015ms   1.033ms   1.114ms   1.231ms   2.698ms   4.670ms   4.670ms   4.891ms
+Ethr done, duration: 10s.
+Hint: Use -d parameter to change duration of the test.

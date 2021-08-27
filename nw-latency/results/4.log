@@ -1,0 +1,22 @@
+adminuser@vm-nw-latency-eval-3:~$ ethr -c 10.0.0.5 -t l -p tcp
+
+Ethr: Comprehensive Network Performance Measurement Tool (Version: v1.0.0)
+Maintainer: Pankaj Garg (ipankajg @ LinkedIn | GitHub | Gmail | Twitter)
+
+Using destination: 10.0.0.5, ip: 10.0.0.5, port: 8888
+Running latency test: 1000, 1
+-----------------------------------------------------------------------------------------
+      Avg       Min       50%       90%       95%       99%     99.9%    99.99%       Max
+163.469us 108.700us 130.300us 238.002us 294.802us 536.403us 990.506us 990.506us   1.757ms
+187.944us 112.101us 152.001us 293.402us 350.702us 588.103us   1.011ms   1.011ms   1.435ms
+180.924us 108.601us 141.001us 278.902us 351.202us 662.204us 989.906us 989.906us   1.775ms
+176.263us 111.001us 141.801us 239.002us 308.802us 677.204us 957.206us 957.206us   1.071ms
+177.840us 111.101us 145.300us 269.501us 321.302us 626.804us 905.105us 905.105us   1.227ms
+180.886us 115.401us 151.401us 248.201us 308.802us 524.003us   1.002ms   1.002ms   4.466ms
+180.022us 111.401us 141.901us 248.102us 364.702us 677.504us   1.147ms   1.147ms   1.518ms
+170.378us 111.901us 140.101us 234.001us 316.702us 622.904us 907.005us 907.005us   1.185ms
+179.781us 112.701us 143.401us 271.302us 345.902us 608.704us   1.043ms   1.043ms   1.378ms
+187.745us 115.701us 156.401us 267.701us 329.602us 568.404us   1.139ms   1.139ms   4.691ms
+172.433us 113.501us 141.601us 242.001us 299.102us 533.303us   1.141ms   1.141ms   4.080ms
+Ethr done, duration: 10s.
+Hint: Use -d parameter to change duration of the test.
