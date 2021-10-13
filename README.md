@@ -19,7 +19,7 @@
 
 ### テスト済み環境
 
-* Windows Sysbsystem for Linux
+* Windows Subsystem for Linux
   * Ubuntu 20.04.3 LTS
   * VMへのsshとprovisioner向けに、キーペアを事前作成
     * ~/.ssh/id_rsa
